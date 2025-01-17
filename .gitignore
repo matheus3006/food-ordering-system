@@ -1,0 +1,66 @@
+# Diretórios e arquivos gerados pelo Maven e Gradle
+/target/
+/build/
+/out/
+/*.iml
+/.idea/
+/.gradle/
+/mvnw
+/mvnw.cmd
+/.mvn/
+
+# Logs e outros arquivos de execução
+*.log
+*.pid
+*.gz
+
+# Configurações locais de ambiente
+*.env
+*.local
+*.properties
+*.yml
+*.yaml
+!/src/main/resources/application*.yml
+!/src/main/resources/application*.properties
+
+# Configurações do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Binários e bibliotecas
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+
+# Arquivos de teste
+/test-output/
+coverage/
+jacoco.exec
+
+# Configuração de IDEs
+.vscode/
+.idea/
+*.iml
+*.swp
+
+# Ferramentas de análise de código
+/.sonar/
+/.coverage/
+
+# Arquivos de cache
+*.class
+*.swp
+.hprof
+
+# Arquivos gerados por containers Docker
+docker-compose.override.yml
+
+# Arquivos temporários ou de build
+*.bak
+*.tmp
+
+# Outros arquivos ignoráveis
+*.~*
+*.orig
